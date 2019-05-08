@@ -1,5 +1,5 @@
-class Book
-  def initialize(title) #automatically creates when using .new - this becomes :title setter
+class Shoe
+  def initialize(title) 
     @title = title
   end
   
