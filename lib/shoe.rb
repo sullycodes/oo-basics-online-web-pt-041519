@@ -4,17 +4,7 @@ class Shoe
   end
   
   attr_reader :brand 
-  attr_accessor 
+  attr_accessor color, :size, 
   
-  def author=(author) #setter
-    @author = author
-  end
   
-  def author #getter
-    @author
-  end
-  
-  def turn_page
-      puts "Flipping the page...wow, you read fast!"
-  end
 end
