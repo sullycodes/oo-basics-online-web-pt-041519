@@ -8,9 +8,7 @@ class Shoe
   
   def cobble
     puts "The shoe has been prepared."
+    @condition = "new"
   end 
-  
-  
-  
   
 end
