@@ -1,10 +1,10 @@
 class Shoe
-  def initialize(title) 
-    @title = title
+  def initialize(brand) 
+    @brand = brand
   end
   
-  attr_reader :title #creates a getter
-  attr_accessor :page_count, :genre #creates a setter & getter for each item
+  attr_reader :brand 
+  attr_accessor 
   
   def author=(author) #setter
     @author = author
