@@ -11,7 +11,7 @@ class Book
   end
   
   def author #getter
-    @author = author
+    @author
   end
   
   def turn_page
