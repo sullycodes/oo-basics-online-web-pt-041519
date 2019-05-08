@@ -7,7 +7,7 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   
   def cobble
-    puts "The shoe has been prepared."
+    puts "The Shoe has been prepared."
     @condition = "new"
   end 
   
